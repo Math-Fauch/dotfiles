@@ -1,0 +1,64 @@
+@import "./rose-pine-moon.css";
+
+* {
+	font-size: 20px;
+	font-family: jetBrainsMonoNF;
+}
+
+window#waybar {
+	background: @base;
+	color: @text;
+}
+
+#custom-right-arrow-accent,
+#custom-left-arrow-accent {
+    color: @rose; 
+}
+#custom-right-arrow-dark,
+#custom-left-arrow-dark {
+	color: @pine;
+}
+#custom-right-arrow-light,
+#custom-left-arrow-light {
+	color: @base;
+	background: @pine;
+}
+
+#workspaces,
+#clock.1,
+#clock.3,
+#pulseaudio,
+#battery,
+#network,
+#tray {
+	background: @pine;
+}
+#clock.2 {
+	font-weight: bold;
+	color: @text;
+    background: @rose;
+}
+
+button {
+  border: none;
+}
+#workspaces button {
+  padding: 0 5px;
+  background-color: transparent;
+  color: @text;
+  border-radius: 0;
+}
+
+#workspaces button.active {
+	font-weight: bold;
+	color: @text;
+    background: @rose;
+}
+
+#clock,
+#pulseaudio,
+#network,
+#battery {
+	padding: 0 10px;
+	color: @text;
+}
