@@ -1,2 +1,8 @@
 font-family = Jetbrains Mono NF
 theme = rose-pine
+
+window-decoration = false
+
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = false
